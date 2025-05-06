@@ -1,12 +1,16 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import Templates.ConsoleTemplates;
+import Utility.ConsoleUtils;
+
 public class Main {
     public static void main(String[] args) {
 
-        ConsolePrinter frontEnd = new ConsolePrinter();
-        frontEnd.printMainMenu();
+        Homepage home = new Homepage();
+
+        System.out.println(ConsoleTemplates.APPLICATION_INTRO);
+
         while (true) {
-            frontEnd.handleMainMenuInput(frontEnd.getInput());
+            home.printMainMenu();
+            home.handleMainMenuInput(ConsoleUtils.getInput());
         }
     }
 
