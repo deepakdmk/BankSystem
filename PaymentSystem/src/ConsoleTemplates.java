@@ -14,7 +14,8 @@ public class ConsoleTemplates {
     public static final String MAIN_MENU_EXIT="Thank you for banking with AwesomeGIC Bank.\nHave a nice day!";
 
 
-    public static final String TRANSACTION_HEADER="Please enter transaction details in <Date> <Account> <Type> <Amount> format (or enter blank to go back to main menu):";
+    public static final String TRANSACTION_INTRO="Please enter transaction details in <Date> <Account> <Type> <Amount> format (or enter blank to go back to main menu):";
+    public static final String TRANSACTION_="Please enter transaction details in <Date> <Account> <Type> <Amount> format (or enter blank to go back to main menu):";
 
 
     public static final String ERROR_INPUT="Invalid input";

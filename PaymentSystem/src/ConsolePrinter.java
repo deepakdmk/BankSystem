@@ -58,7 +58,8 @@ public class ConsolePrinter {
     }
 
     private void handleTransactionMenu() {
-        System.out.println("transaction");
+        Transaction transaction = new Transaction();
+        transaction.transactionMenu();
     }
 
     private void handleInterestMenu() {
